@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-          title: Text( S.of(context).hellowworld  ),), //widget.title +
+          title: Text( 'S.of(context).hellowworld'  ),), //widget.title +
       body:
       Center(  child: ListView(
     children: [
@@ -105,5 +105,4 @@ class Mytext extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text("$label");
-    {  }
 }}

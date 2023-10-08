@@ -25,7 +25,7 @@ class S {
 
   static const AppLocalizationDelegate delegate = AppLocalizationDelegate();
 
-  String get hellowworld => null;
+  String? get hellowworld => null;
 
   static Future<S> load(Locale locale) {
     final name = (locale.countryCode?.isEmpty ?? false)
